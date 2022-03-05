@@ -1,0 +1,24 @@
+/** @format */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url('./imgs/bg.svg');
+	min-height: 100vh;
+	font-family: 'Overpass', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-container {
+	height: 90vh;
+	width: 95vw;
+	background: linear-gradient(to right, rgb(255, 255, 255), rgb(245, 245, 255));
+	box-shadow: 3px 5px 23px rgba(0, 0, 0, 0.1);
+	border-radius: 35px;
+	backdrop-filter: 17px;
+	border: 5px solid #fff;
+}

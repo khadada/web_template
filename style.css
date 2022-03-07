@@ -4,6 +4,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	text-decoration: none;
 }
 body {
 	background-image: url('./imgs/bg.svg');
@@ -12,6 +13,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 18px;
+	color: #333;
 }
 .main-container {
 	height: 90vh;
@@ -21,4 +24,24 @@ body {
 	border-radius: 35px;
 	backdrop-filter: 17px;
 	border: 5px solid #fff;
+}
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 10vh;
+	margin: 0 3rem;
+}
+.navigation .nav-items {
+	display: flex;
+	list-style: none;
+	align-items: flex-end;
+}
+.nav-items li {
+	margin: 0 2rem;
+}
+.nav-items a {
+	font-weight: 500;
+	font-family: inherit;
+	color: inherit;
 }
